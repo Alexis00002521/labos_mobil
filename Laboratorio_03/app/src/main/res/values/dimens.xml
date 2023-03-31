@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_value">148dp</dimen>
+    <dimen name="size_text">32sp</dimen>
+    <dimen name="space_value">25dp</dimen>
+    <dimen name="space_name_monety">10dp</dimen>
+</resources>
