@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="fill_info">Rellena la sigiente informacion</string>
+    <string name="name_string">Nombre</string>
+    <string name="string_email">Correo elecronico</string>
+    <string name="phone_number_string">Numero de telefono</string>
+    <string name="save_string">GUARDAR</string>
+    <string name="btn_share">COMPARTIR</string>
+    <string name="title_activity_second">second</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
