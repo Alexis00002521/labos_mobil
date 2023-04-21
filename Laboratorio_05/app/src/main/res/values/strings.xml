@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Laboratorio_05</string>
+    <string name="movie_title1">Star wars episodio 3: La vengaza de los sith</string>
+    <string name="movie_title2">Harri Potter y la Piedra Filosofal</string>
+
+    <string name="addMore">+</string>
+    <string name="billboard">Billboard</string>
+    <string name="add">+</string>
+    <string name="puntuacion_starwar">9.8</string>
+    <string name="mainTitle">Billboaed</string>
+    <string name="puntuacion_harry">9.5</string>
+    <string name="new_movie_string">New Movie</string>
+    <string name="name_string">Name</string>
+    <string name="category_string">Category</string>
+    <string name="description_string">Description</string>
+    <string name="calification_string">Calification</string>
+    <string name="sinopsis_starWar">La pelicula se centra en el personaje de Anakin Skywalker,quien esta siendo tentado por el Lado oscuro de la fuerza mientras el imperio Galacctico comienza a surgir. La trama tambien muestra la caida de la Republica Galactica y el ascenso del Emperador Palpatine.</string>
+    <string name="topico_Movie">Ciencia Ficcion</string>
+</resources>
