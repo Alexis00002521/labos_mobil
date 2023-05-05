@@ -1,0 +1,5 @@
+¿En qué consiste el patrón de diseño Repository?
+en almacenar capas de datos que ya estan establecidos y que solo manipula estas capas 
+
+¿Qué es el ViewModel?
+una capa que nos permite mantener los estados y datos de las aplicaciones 
