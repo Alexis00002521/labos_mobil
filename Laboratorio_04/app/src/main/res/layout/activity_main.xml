@@ -81,7 +81,7 @@
 
     <Button
         android:layout_marginTop="@dimen/dimens_top"
-        android:id="@+id/btn_send"
+        android:id="@+id/btn_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/button_color"

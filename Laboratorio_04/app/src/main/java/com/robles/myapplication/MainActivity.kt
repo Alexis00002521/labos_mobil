@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         inpphone = findViewById(R.id.phone)
 
         btns.setOnClickListener{
-            setContentView(R.layout.second_activity)
+
 
         }
 
