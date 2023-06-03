@@ -29,4 +29,8 @@ class MovieRecyclerViewAdapter(
         movies.clear()
         movies.addAll(moviesList)
     }
+
+
+
+
 }

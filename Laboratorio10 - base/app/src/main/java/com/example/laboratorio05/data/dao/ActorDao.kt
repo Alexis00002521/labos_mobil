@@ -5,17 +5,19 @@ import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Transaction
 import com.example.laboratorio05.data.model.ActorModel
+import com.example.laboratorio05.data.model.MovieWithActor
 
 @Dao
 interface ActorDao {
     @Query("SELECT * FROM actor_table")
     suspend fun getAllActors()
-    // TODO: create getAllActors method
+
     @Transaction
     @Insert
     suspend fun insertActor(actor: ActorModel)
 
-    // TODO: create insertActor method
+    @Query("SELECT * FROM actor_table WHERE actorId = :actorId")
+    suspend fun getActorWithActorsById(actorId: Int): MovieWithActor?
 
 
 }

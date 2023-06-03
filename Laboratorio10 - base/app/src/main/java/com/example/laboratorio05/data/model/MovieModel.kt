@@ -13,8 +13,6 @@ data class MovieModel (
     @ColumnInfo(name = "qualification") val qualification: String,
 )
 {
-    // TODO: add constructor
-
     constructor(name: String, category: String, description: String, qualification: String) :
             this(0,name, category, description, qualification)
 

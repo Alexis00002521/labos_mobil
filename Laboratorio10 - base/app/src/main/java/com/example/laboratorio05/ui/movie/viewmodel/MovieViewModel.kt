@@ -25,8 +25,6 @@ class MovieViewModel(private val repository: MovieRepository) : ViewModel() {
 
     suspend fun getMovies() = repository.getMovies()
 
-
-    // TODO: complete getMovieWithActorById function
     suspend fun getMovieWithActorById(movieId: Int) = repository.getMoviesWithActors(movieId)
 
     private fun addMovies(movie: MovieModel) {
@@ -43,7 +41,6 @@ class MovieViewModel(private val repository: MovieRepository) : ViewModel() {
         }
 
         val movie = MovieModel(
-            0, // TODO: This value must not be set here!
             name = name.value!!,
             category = category.value!!,
             description = description.value!!,

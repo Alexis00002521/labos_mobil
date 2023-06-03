@@ -7,7 +7,7 @@ import com.example.laboratorio05.repositories.CastRepository
 import com.example.laboratorio05.repositories.MovieRepository
 
 class MovieReviewerApplication : Application() {
-    // TODO: Create database instance
+
     private  val database: MovieReviewerDatabase.MovieReviewerDatabase by lazy{
         MovieReviewerDatabase.newInstance(this)
     }

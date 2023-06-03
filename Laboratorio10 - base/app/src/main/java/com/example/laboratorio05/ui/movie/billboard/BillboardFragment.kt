@@ -1,5 +1,6 @@
 package com.example.laboratorio05.ui.movie.billboard
 
+import android.graphics.Movie
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -75,8 +76,8 @@ class BillboardFragment : Fragment() {
         displayMovies()
     }
     private suspend fun displayMovies() {
-        // TODO: uncomment
-        // adapter.setData(movieViewModel.getMovies())
+
+        adapter.setData(movieViewModel.getMovies())
         adapter.notifyDataSetChanged()
     }
 

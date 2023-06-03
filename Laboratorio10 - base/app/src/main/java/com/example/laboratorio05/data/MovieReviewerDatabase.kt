@@ -12,7 +12,6 @@ import com.example.laboratorio05.data.model.CastModel
 import com.example.laboratorio05.data.model.MovieModel
 
 abstract class MovieReviewerDatabase : RoomDatabase(){
-    // TODO: complete MovieReviewerDatabase abstract class
     @Database(entities = [MovieModel::class, ActorModel::class, CastModel::class], version = 1)
     abstract class MovieReviewerDatabase : RoomDatabase(){
         abstract fun movieDao(): MovieDao
